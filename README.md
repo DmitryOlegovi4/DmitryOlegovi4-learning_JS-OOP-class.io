@@ -1,6 +1,6 @@
 # learning_JS-OOP-class.io
 
-link 
+link https://dmitryolegovi4.github.io/learning_JS-OOP-class.io/
 
 Необходимо реализовать класс, который описывает статью, у класса должны быть реализованы свойства:
 - заголовок
