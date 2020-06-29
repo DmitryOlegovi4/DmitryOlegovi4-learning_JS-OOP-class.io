@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.articleElem{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted;
+}
+.likeElem{
+    display: flex;
+    font-size: 20px;
+}
+.likeElem div {
+    margin: 0 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    padding: 2px 5px;
+}
+.likeElem div:not(:first-child) {
+    cursor: pointer;
+}
+
+.articleElem input {
+    width: 300px;
+}
+.articleElem textarea {
+    width: 500px;
+}
+.articleElem button {
+    width: 150px;
+    cursor: pointer;
+}
+.articleElem *{
+    margin: 5px 0;
+}
